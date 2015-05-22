@@ -40,8 +40,17 @@ Using ss.animateProperty</p>
 
 <p>It's easy to use in the same fashion you normally use a plugin, it returns the original object(s) so is nice and chainable.</p>
 
-<pre><code>$(el).animateProperty({color:'red'});
-</code></pre>
+<pre>
+  <code>
+    var el = $('#yourElement');
+    el.animateProperty({color:'red'});
+</code>
+or just
+<code>
+  $('#yourElement').animateProperty({color:'red'});
+</code> 
+if you fancy.
+</pre>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/57u">57u</a></p>
